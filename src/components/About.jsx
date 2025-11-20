@@ -32,7 +32,7 @@ const About = () => {
         <div className="flex-1 space-y-6">
           <div className={`${styles.lead} leading-relaxed space-y-4`}>
             <p>
-              AI Engineer and LLM Specialist with 3+ years of experience building production-grade Agentic Workflows and RAG Architectures. I specialize in orchestrating multi-agent systems using LangGraph, fine-tuning large language models, and optimizing vector search strategies to deliver scalable, high-performance AI solutions.
+              AI Engineer and LLM Specialist with 4+ years of experience building production-grade Agentic Workflows and RAG Architectures. I specialize in orchestrating multi-agent systems using LangGraph, fine-tuning large language models, and optimizing vector search strategies to deliver scalable, high-performance AI solutions.
             </p>
             
             <p>

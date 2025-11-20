@@ -157,7 +157,7 @@ const experiences = [
   },
   {
     title: "M.Sc. in Data Science",
-    company_name: "IU International Hochschule",
+    company_name: "IU Internationale Hochschule",
     location: "Berlin, DE",
     icon: tekisky,
     iconBg: "#666666",
@@ -176,7 +176,7 @@ const experiences = [
     location: "San Francisco, CA",
     icon: tekisky,
     iconBg: "#666666",
-    date: "Jan 2021 - Jan 2023",
+    date: "Jan 2021 - Jan 2024",
     points: [
       "Developed ARIMA and multivariate regression models to forecast market CAGR, reducing prediction error by 15% over linear baselines.",
       "Implemented customer segmentation via K-Means, increasing marketing effectiveness by +20%.",
