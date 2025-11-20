@@ -128,7 +128,7 @@ const Navbar = () => {
         {/* Social Links */}
         <div className='hidden md:flex items-center gap-4'>
           <a
-            href="https://github.com/ayush1330"
+            href="https://github.com/Muskan-Verma-7"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lightGrey hover:text-white transition-colors duration-200"
@@ -136,7 +136,7 @@ const Navbar = () => {
             <FaGithub size={18} />
           </a>
           <a
-            href="https://x.com/ayushrajput08?s=09"
+            href="https://x.com/ignitedsmile"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lightGrey hover:text-white transition-colors duration-200"
@@ -144,7 +144,7 @@ const Navbar = () => {
             <FaXTwitter size={18} />
           </a>
           <a
-            href="https://www.linkedin.com/in/ayush-singh-1330c/"
+            href="https://www.linkedin.com/in/muskan-verma-a2702/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-lightGrey hover:text-white transition-colors duration-200"
@@ -191,7 +191,7 @@ const Navbar = () => {
           {/* Mobile Social Links */}
           <div className='flex items-center gap-4 mt-4 pt-4 border-t border-accent/10'>
             <a
-              href="https://github.com/ayush1330"
+              href="https://github.com/Muskan-Verma-7"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lightGrey hover:text-white transition-colors duration-200"
@@ -199,7 +199,7 @@ const Navbar = () => {
               <FaGithub size={18} />
             </a>
             <a
-              href="https://x.com/ayushrajput08?s=09"
+              href="https://x.com/ignitedsmile"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lightGrey hover:text-white transition-colors duration-200"
@@ -207,7 +207,7 @@ const Navbar = () => {
               <FaXTwitter size={18} />
             </a>
             <a
-              href="https://www.linkedin.com/in/ayush-singh-1330c/"
+              href="https://www.linkedin.com/in/muskan-verma-a2702/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lightGrey hover:text-white transition-colors duration-200"

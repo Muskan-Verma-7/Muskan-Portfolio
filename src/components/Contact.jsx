@@ -105,9 +105,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Ayush",
+          to_name: "Muskan",
           from_email: form.email,
-          to_email: "ayushrajputsingh.08@gmail.com",
+          to_email: "muskanverma.2798@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -167,7 +167,7 @@ const Contact = () => {
                       <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                     </svg>
                   </div>
-                  <span className="typography-body text-body">+49 1525 9857962</span>
+                  <span className="typography-body text-body">+4915259857961</span>
                 </div>
                 
                 <div className="flex items-center gap-4">
@@ -177,7 +177,7 @@ const Contact = () => {
                       <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                     </svg>
                   </div>
-                  <span className="typography-body text-body">ayushrajputsingh.08@gmail.com</span>
+                  <span className="typography-body text-body">muskanverma.2798@gmail.com</span>
                 </div>
                 
                 <div className="flex items-center gap-4">

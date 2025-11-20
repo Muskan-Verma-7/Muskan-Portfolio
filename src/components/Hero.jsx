@@ -23,7 +23,7 @@ const Hero = () => {
         <div className="flex-1 text-center max-w-3xl">
           <div className="space-y-12">
             <h1 className={`${styles.heroHeadText} leading-tight animate-fade-in-up`} style={{ animationDelay: '0.1s', color: '#9CA3AF' }}>
-              Hi, I'm <span className='text-blue-300'>Ayush</span>
+              Hi, I'm <span className='text-blue-300'>Muskan</span>
             </h1>
             
             <div className="space-y-4">
@@ -32,7 +32,7 @@ const Hero = () => {
               </p>
               
               <p className={`${styles.heroSubText} ${styles.light} leading-relaxed animate-fade-in-up`} style={{ animationDelay: '0.4s' }}>
-                I'm a people person from a small town, with a big-picture mindset. My passion lies in Agentic AI application, coupled with a dash of common sense, to craft simple yet effective solutions for complex problems, Working hard to better myself everyday and will take on every project I have time for.
+                AI Engineer and LLM Specialist focused on building production-grade Agentic Workflows and RAG Architectures. Expert in orchestrating multi-agent systems with LangGraph, fine-tuning, and optimizing vector search strategies. Skilled in quantization and multimodal deployment to deliver scalable, high-performance AI solutions.
               </p>
             </div>
           </div>

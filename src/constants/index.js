@@ -52,19 +52,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "AI Engineering",
+    title: "Agentic Workflows",
     icon: web,
   },
   {
-    title: "ML Engineering",
+    title: "RAG & LLMs",
     icon: mobile,
   },
   {
-    title: "Data Science",
+    title: "ETL & Analytics",
     icon: backend,
   },
   {
-    title: "MLOps",
+    title: "MLOps & CI/CD",
     icon: creator,
   },
 ];
@@ -79,20 +79,20 @@ const technologies = [
     icon: pytorch,
   },
   {
-    name: "TensorFlow",
-    icon: tensorflow,
+    name: "LangChain",
+    icon: langchain,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "LangGraph",
+    icon: langchain,
   },
   {
     name: "AWS",
     icon: aws,
   },
   {
-    name: "Pinecone",
-    icon: mongodb,
+    name: "Vertex AI",
+    icon: vertex_ai,
   },
   {
     name: "Git",
@@ -115,10 +115,6 @@ const technologies = [
     icon: huggingface,
   },
   {
-    name: "LangGraph",
-    icon: langchain,
-  },
-  {
     name: "FastAPI",
     icon: fastapi,
   },
@@ -127,90 +123,96 @@ const technologies = [
     icon: postgresql,
   },
   {
+    name: "ChromaDB",
+    icon: mongodb,
+  },
+  {
     name: "Apache Spark",
     icon: apache_spark,
   },
   {
-    name: "Vertex AI",
-    icon: vertex_ai,
+    name: "Terraform",
+    icon: kubernetes,
   },
 ];
 
 const experiences = [
   {
     title: "AI Engineer",
-    company_name: "TECHCOSPACE",
-    location: "UK",
+    company_name: "SAGAS IT ANALYTICS",
+    location: "Remote",
     icon: tekisky,
     iconBg: "#666666",
     date: "Jul 2024 - Aug 2025",
     points: [
-      "🤖 Designed custom retrieval workflows with agent for dynamic chunking; improved query processing efficiency by 40%.",
-      "⚡ Fine-tuned 442M parameter models on Vertex AI, optimizing performance for specialized domain tasks.",
-      "🔧 Implemented advanced RAG systems with dynamic context window management.",
-      "📊 Developed agentic workflows for automated data processing and analysis.",
+      "Built an AI Research Assistant with RAG, LangChain, LangGraph, and OpenAI LLMs integrated with vector search; cut research time by 30%.",
+      "Designed custom retrieval workflows with LlamaIndex, building a ReAct-style agent for dynamic chunking; improved query accuracy by 18%.",
+      "Researched and optimized embedding strategies, reducing retrieval cost per query by 15%.",
+      "Developed RAG evaluation frameworks using RAGAS and Langsmith, with custom datasets; improved coverage by 40%.",
+      "Fine-tuned LLMs (LLaMA 2) on Vertex AI with custom inference containers, dynamic batching, and quantization; reduced inference latency by 25%.",
+      "Integrated AI agents in LangGraph with short-term and long-term memory (Mem0); increased task completion rate by 20%.",
+      "Created schema-aware synthetic data generators; fine-tuned downstream models achieving +12% F1 score.",
     ],
     position: "left"
   },
   {
-    title: "MSc. Data Science",
-    company_name: "IU Hochschule",
+    title: "M.Sc. in Data Science",
+    company_name: "IU International Hochschule",
     location: "Berlin, DE",
     icon: tekisky,
     iconBg: "#666666",
-    date: "APR 2023 - APR 2025",
+    date: "Apr 2023 - Apr 2025",
     points: [
-      "📊 Master's degree in Data Science with a focus on AI and Machine Learning.",
-      "🤖 Specialized in LLMs, RAG, and Agentic workflows.",
-      "📈 Developed end-to-end solutions for data-driven products.",
-      "🔬 Conducted research on LLMs and Agentic workflows.",
+      "Master's degree in Data Science with a focus on AI and Machine Learning.",
+      "Specialized in Large Language Models, RAG architectures, and Agentic workflows.",
+      "Developed end-to-end solutions for data-driven products and AI applications.",
+      "Conducted research on advanced LLM techniques and multi-agent systems.",
     ],
     position: "right"
   },
   {
-    title: "Senior ML Engineer",
+    title: "BI Engineer",
     company_name: "Grand View Research",
     location: "San Francisco, CA",
     icon: tekisky,
     iconBg: "#666666",
-    date: "Jan 2022 - Dec 2023",
+    date: "Jan 2021 - Jan 2023",
     points: [
-      "🚀 Created End-to-End Auto ML orchestration Platform with UI, enabling data upload from S3 bucket and training deep learning models with hyperparameter tuning (PyTorch) and monitoring (via TensorBoard).",
-      "🤖 Developed AI Image Culling software, implementing face quality algorithm (MediaPipe) and removing duplicates, blurriness, background removal and blinking images.",
-      "🏗️ Architected researcher platform and developed custom-built Federated Machine Learning and Analytics Python packages.",
-      "⚡ Managed Kubernetes clusters for containerizing ML models and deploying them to production, reducing deployment time by 80%.",
-      "📈 Designed automated Facebook ad system with GPT-3, boosting engagement rates by 35%.",
-      "🎯 Developed customer segmentation using K-Means clustering with Python and Scikit-learn, improving marketing effectiveness by 20%.",
+      "Developed ARIMA and multivariate regression models to forecast market CAGR, reducing prediction error by 15% over linear baselines.",
+      "Implemented customer segmentation via K-Means, increasing marketing effectiveness by +20%.",
+      "Automated Facebook ads with GPT-3, boosting engagement by +35%.",
+      "Implemented n8n automations, reducing errors and costs by 20% and boosting signups by 15%.",
+      "Engineered automated Python ETL pipelines, reducing data preprocessing time by 50% for AI model training.",
     ],
     position: "left"
   },
   {
-    title: "ML Engineer",
-    company_name: "Grand View Research",
-    location: "San Francisco, CA",
+    title: "Data Analyst Intern",
+    company_name: "SKILLATE",
+    location: "India",
     icon: tekisky,
     iconBg: "#666666",
-    date: "Sep 2020 - Dec 2021",
+    date: "Oct 2020 - Dec 2020",
     points: [
-      "🔬 Developed machine learning models for predictive analytics and data insights.",
-      "📊 Implemented data preprocessing pipelines and feature engineering workflows.",
-      "🤖 Built and deployed ML models for production environments.",
-      "📈 Collaborated with cross-functional teams to deliver data-driven solutions.",
+      "Collaborated with the ML team to curate high-quality Ground Truth datasets for NLP models.",
+      "Performed rigorous data annotation and quality assurance (QA) to minimize noise in training corpora.",
+      "Delivered Dash/Plotly dashboards, improving decision speed by +30%.",
+      "Supported data preprocessing and feature engineering for machine learning projects.",
     ],
     position: "left"
   },
   {
-    title: "BTech. ECE",
-    company_name: "JIIT",
-    location: "Noida, IN",
+    title: "Bachelor of Technology",
+    company_name: "ABESIT",
+    location: "India",
     icon: tekisky,
     iconBg: "#666666",
-    date: "July 2016 - July 2020",
+    date: "Aug 2016 - Aug 2020",
     points: [
-      "🔬 Conducted research on machine learning algorithms and neural networks.",
-      "📚 Published research papers on deep learning applications.",
-      "🎓 Collaborated with professors and graduate students on research projects.",
-      "💡 Developed innovative solutions for complex computational problems.",
+      "Bachelor's degree in Technology with focus on Computer Science and Engineering.",
+      "Built strong foundation in algorithms, data structures, and software development.",
+      "Completed projects in machine learning and data analysis.",
+      "Developed problem-solving and analytical skills through coursework and practical projects.",
     ],
     position: "right"
   },
@@ -218,69 +220,41 @@ const experiences = [
 
 const projects = [
   {
-    name: "AI Podcast Generator",
+    name: "AI Voice Interview Assistant",
     description:
-      "An multi-agent application that creates personalized podcast content using advanced language models and text-to-speech technology. Built with LangGraph, it integrates various AI components to generate engaging podcast episodes.",
+      "Interactive AI-powered interview preparation platform that conducts voice-based mock interviews with real-time feedback. Features document analysis (resume/cover letter), job description integration, multi-stage interviews, and generates personalized podcast summaries of interview performance.",
     tags: [
       {
-        name: "Agents",
+        name: "OpenAI",
         color: "text-primary",
       },
       {
-        name: "LangGraph",
+        name: "Whisper API",
         color: "text-secondary",
       },
       {
-        name: "OpenAI",
+        name: "ChromaDB",
         color: "text-accent",
       },
       {
-        name: "TTS",
+        name: "Streamlit",
         color: "text-primary-light",
       },
       {
-        name: "FAISS",
+        name: "ElevenLabs",
         color: "text-primary-light",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/ayush1330/ai_podcast",
+    source_code_link: "https://github.com/Muskan-Verma-7/ai_interviewer",
     live_demo_link: "",
-    buttonType: "Live Demo",
-    impact: "Generated personalized podcast content for enhanced user engagement",
+    buttonType: "GitHub",
+    impact: "Natural voice interaction with personalized feedback and podcast generation",
   },
   {
-    name: "LlamaIndex DynamicK Agent",
+    name: "Synthetic Data Generator for LLM Reasoning",
     description:
-      "Developed an agentic application utilizing the LlamaIndex framework to dynamically adjust the number of retrieved chunks (k) in Retrieval-Augmented Generation (RAG) systems. This approach optimizes context window sizing based on query complexity, enhancing response accuracy and efficiency.",
-    tags: [
-      {
-        name: "LlamaIndex",
-        color: "text-primary",
-      },
-      {
-        name: "RAG",
-        color: "text-secondary",
-      },
-      {
-        name: "Python",
-        color: "text-accent",
-      },
-      {
-        name: "Agents",
-        color: "text-primary-light",
-      },
-    ],
-    image: gearXpert,
-    source_code_link: "https://github.com/ayush1330/LlamaIndex-DynamicK-Agent",
-    live_demo_link: "",
-    buttonType: "Case Study",
-    impact: "Improved response accuracy by 30%, enhanced computational efficiency",
-  },
-  {
-    name: "Synthetic Data for LLM Reasoning",
-    description:
-      "Built a Python framework using MuSR methodology to generate synthetic tax law cases and evaluate LLM reasoning capabilities. Created scenarios to assess model performance in specialized domains.",
+      "Python framework using MuSR methodology to generate synthetic tax law cases for evaluating LLM reasoning capabilities. Features logic tree construction, narrative generation, and comprehensive reasoning evaluation with caching and batch processing for performance optimization.",
     tags: [
       {
         name: "Python",
@@ -291,19 +265,47 @@ const projects = [
         color: "text-secondary",
       },
       {
-        name: "LLM Reasoning",
-        color: "text-primary-light",
+        name: "Logic Trees",
+        color: "text-accent",
       },
       {
-        name: "Synthetic Data",
-        color: "text-accent",
+        name: "LLM Evaluation",
+        color: "text-primary-light",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/ayush1330/LLM-Reasoning-Model-Synthetic-data",
+    source_code_link: "https://github.com/Muskan-Verma-7/Synthetic_Data_Generator",
     live_demo_link: "",
-    buttonType: "Case Study",
-    impact: "Generated 500+ tax scenarios, improved reasoning accuracy by 25%",
+    buttonType: "GitHub",
+    impact: "Generates reliable test cases with 50%+ cache hit rate and deterministic ground truth",
+  },
+  {
+    name: "LangGraph Chatbot",
+    description:
+      "Advanced conversational AI system built with LangGraph for managing complex multi-turn conversations. Implements state management, dynamic conversation flow, and context-aware responses using graph-based architecture for intelligent dialogue handling.",
+    tags: [
+      {
+        name: "LangGraph",
+        color: "text-primary",
+      },
+      {
+        name: "LangChain",
+        color: "text-secondary",
+      },
+      {
+        name: "Python",
+        color: "text-accent",
+      },
+      {
+        name: "State Management",
+        color: "text-primary-light",
+      },
+    ],
+    image: gearXpert,
+    source_code_link: "https://github.com/Muskan-Verma-7/Langgraph-Chatbot",
+    live_demo_link: "",
+    buttonType: "GitHub",
+    impact: "Graph-based conversation management with intelligent context handling",
   },
 ];
 
